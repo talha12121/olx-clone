@@ -1,0 +1,221 @@
+.nav_1{
+    background-color: #f7f8f8;
+}
+.nav_1 ul li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.nav_2 ul li{
+    display: inline-block
+}
+.nav_2 ul li a{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -25px;
+}
+.second input{
+    border: 1px solid black;
+}
+.second input:focus{
+    border: 1px solid black;
+}
+
+.mybtn_2{
+    color: #fff;
+    background-color:#002f34;
+}
+.mybtn_2:hover{
+    border-color: #fff;
+    color: #fff;
+    background-color: #002f34;
+}
+.third{
+    margin-top: -60px;
+    margin-left: 12px;
+    display: flex;
+    align-items: center;
+}
+.myinput {
+    box-shadow: none !important;
+    width: 20% !important;
+    padding-left: 30px !important;
+    /* background-color: aqua; */
+    height: 50px !important;
+    /* border: 1px solid black; */
+
+}
+.myinput input:active{
+    
+}
+.myinput_2{
+     height: 50px !important;
+     
+}
+.list ul li a{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+.list ul li{
+    margin-top: 22px;
+}
+.wallpaper{
+   background-image: url(./images/wallpaper.jpg);
+   width: 100%;
+   /* background-position: 50%; */
+   background-size: cover;
+   height: 250px;
+   background-position: center;
+}
+.middle .ads{
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+}
+.custom_container{
+    margin: 45px;
+    padding-left: 18px;
+    max-width: 1280px !important;    
+}
+
+
+.row{
+    padding-top:10px;
+    width: 1230px !important;
+    
+}
+.card button.btn_n {
+    width: 100%;
+    border: 1px solid;
+    padding: 10px 10px;
+    margin-top: 90px;
+    border: 2px solid #fff;
+    background-color: #4077ff;
+    color: rgb(253, 252, 255);
+}
+.card.color .card-title  {
+    font-size: 17px;
+/* color: #fff; */
+    font-weight: bold;
+}
+.card.color{
+    background-color: #4077ff;
+}
+ .add_2{
+     display: flex;
+     justify-content: center;
+ }
+
+.last_img{
+    display:flex;
+    margin-top: 22px;
+    background-color: #f7f8f8;
+    /* height:250px ; */
+    
+    
+}
+
+
+.text{
+    width: 50%;
+    margin-top: 22px;
+}
+.mob_app{
+    width: 63%;
+    margin-left: 66px;
+    margin-top: 22px;
+}
+
+
+ .text h2{
+     font-weight: bold;
+     
+ }
+ .paragraph h5{
+     font-size: 20px;
+     line-height: 30px;
+     color: #002f34;
+    margin-top: 22px;
+     text-align: justify;
+ }
+ .app_img{
+     margin-top: 15px;
+ }
+
+ .container_1{
+     /* margin-left: 25px; */
+     background-color:#f7f8f8 ;
+ }
+ .col{
+     margin-left: 25px;
+ }
+ .modal-footer {
+    text-align: center;
+    display: flex;
+    border-top: none;
+    justify-content: center;
+    background-color: #002f34;
+    color: #fff;
+}
+.modal-footer p {
+    font-size: 14px;
+}
+.modal-footer a{
+    font-size: 12px;
+}
+
+
+@media screen and (max-width:373px){
+    .body{
+        width: 100%;
+        
+    }
+    
+    .second{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .third{
+        display: inline-block;
+    }
+    .dropdown{
+        margin-top: 40px;
+    }
+    .myinput{
+       display: none;
+    }
+    .nav_2{
+        display: none;
+    }
+    .middle{
+        display: none;
+    }
+    .card {
+        width: 10.2rem;
+        height: 270px;
+    }
+    .card button.btn {
+        margin-top: 18px;
+    }
+    .pname p {
+        font-size: 12px;
+    }
+    p.card-text {
+        font-size: 12px;
+        font-family: Roboto-Regular;
+    }
+    .card-title {
+        font-size: 14px;
+    }
+    .container_1 .col{
+        flex-wrap: wrap;
+    }
+}
